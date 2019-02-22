@@ -76,7 +76,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333333;
+    text-align: center;
 
 }
 
@@ -87,6 +87,11 @@ li {
     position: relative;
     box-sizing: border-box;
     overflow: visible;
+}
+
+ul li{
+    margin-left: auto;
+    margin-right: auto;
 }
 
 li a {
@@ -236,6 +241,13 @@ label {
     display: block;
 }
 
+#LCAIp {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+}
+
 .forgot{
     background: #eceeee;
     border: 1px solid #42464b;
@@ -255,14 +267,12 @@ label {
     margin: 20px 60px 0 20px;
 }
 
-div #navBar ul {
-    position: fixed;
-    display: inline-block;
-    
-}
 
-div #navBar {
-    text-align: center;
+#navBar {
+    position: sticky;  
+    top: 0;   
+    left: center;
+    right: center;
     
 }
 
@@ -289,10 +299,28 @@ div #navBar {
     
 }
 
+#intro{
+    background: #8A2BE2;
+    
+}
+
+#intro button{
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
 #wellness{
     background: #32CD32;
     
 }
+
+#wellness button{
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
 
 #filler {
     background: #8A2BE2;
