@@ -36,6 +36,7 @@ button {
     position: relative; 
     box-sizing: border-box; 
     overflow: visible;
+    border-radius: 4px;
     
 }
 
@@ -181,11 +182,13 @@ label {
     text-align: center;
     display: block;
     margin: auto;
+    border-radius: 4px;
     
 }
 .create button{
     display:inline;
     margin: 20px 35px 0 35px;
+    border-radius: 4px;
     
 }
 
@@ -225,7 +228,7 @@ label {
     background: #eceeee;
     border: 1px solid #42464b;
     border-radius: 6px;
-    height: 300px;
+    height: 350px;
     margin: 20px auto 0;
     width: 300px;
     padding-left: 10px;
@@ -308,6 +311,7 @@ label {
 
 #intro{
     background: #3c13ad;
+    padding: 10px;
     
 }
 
@@ -329,7 +333,7 @@ label {
 #wellness{
     background: #29a024;
     color: white;
-    
+    padding: 10px;
 }
 
 #wellness button{
@@ -349,6 +353,7 @@ label {
 #GarrisonStory{
     background: #3c13ad;
     color: white;
+    padding: 10px;
     
 }
 
@@ -390,6 +395,10 @@ label {
     padding: 0;
 }
 
+#space {
+    height: 20px;
+    background: white;
+}
 
 /* Hide the images by default */
 .mySlides {
@@ -505,4 +514,36 @@ label {
 
 .fa-linkedIn {
     width: 10%;
+}
+
+footer {
+	color: black;
+	text-align: center;
+    width: 100%;
+    padding: 10px;
+    margin: auto;
+    
+}
+
+footer li, footer ul {
+	padding: 10px;
+	margin: auto;
+    height: auto;
+    width: auto;
+    text-align: center;
+    
+}
+footer li {
+	margin: 0px 10px;
+	list-style: none;
+	display: inline;
+}
+
+#newPost button {
+    text-align: center;
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+    background-color: Transparent;
+    color: black;
 }

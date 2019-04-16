@@ -2,58 +2,60 @@
 
 <head>
     <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
 </head>
 
 <body>
-    <ul id ="navBar">
-        <li>
-            <a role="button" href="file:///Users/Sara/Desktop/Software/LCAI/LCAI2019/Home.html">
-                <div class="style-jrfpf74trepeaterButton_gapper">
-                    <div>
-                        <p>Home</p>
-                    </div>
-                </div>
-            </a>
-        </li>
-        <li>
-            <a role="button" href="file:///Users/Sara/Desktop/Software/LCAI/LCAI2019/Community.html">
-                <div class="style-jrfpf74trepeaterButton_gapper">
-                    <div>
-                        <p>Community</p>
-                    </div>
-                </div>
-            </a>
-        </li>
-        <li>
-            <a role="button" href="file:///Users/Sara/Desktop/Software/LCAI/LCAI2019/Network.html">
-                <div class="style-jrfpf74trepeaterButton_gapper">
-                    <div>
-                        <p>Network</p>
-                    </div>
-                </div>
-            </a>
-        </li>
-        <li>
-            <a role="button" href="https://www.letschataboutit.com/contact" >
-                <div class="style-jrfpf74trepeaterButton_gapper">
-                    <div>
-                        <p>Team</p>
-                    </div>
-                </div>
-            </a>
-        </li>
-        <li>
-            <a role="button" href="file:///Users/Sara/Desktop/Software/LCAI/LCAI2019/Login.html">
-                <div class="style-jrfpf74trepeaterButton_gapper">
-                    <div>
-                        <p>Logout</p>
-                    </div>
-                </div>
-            </a>
-        </li>
-    </ul>
+
+        <!-- website header -->
+	<header>
+		<!-- website navbar -->
+		<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+		  <a class="navbar-brand" href="Home.html">LCAI</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainnav" 
+		  				aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="mainnav">
+		    <div class="navbar-nav">
+		      <a class="nav-item nav-link active" href="Home.html">Home</a>
+		      <a class="nav-item nav-link" href="Community.html">Community</a>
+			  <a class="nav-item nav-link" href="Network.html">Network</a>
+			  <a class="nav-item nav-link" target="_blank" href="">Team</a>
+                <a class="nav-item nav-link" href="Login.html">Logout</a>
+			  </div>
+		  </div>
+		</nav>
+	</header>
     
     
+    <footer style="text-align: center">
+        <ul>
+          <li><a href="">Privacy Policy</a></li>
+          <li><a href="">Support</a></li>
+        </ul>
+        <div id="social">
+            <link rel="stylesheet" href="">
+
+            <!-- Add font awesome icons -->
+            <a href="https://www.facebook.com/letschataboutit1/" class="fa fa-facebook"> 
+                <img src="facebook.png" style="width:3%">
+            </a>
+            <a href="https://www.instagram.com/letschataboutit/" class="fa fa-instagram">
+                <img src="Instagram.png" style="width:3%">
+            </a>
+            <a href="lhttps://www.linkedin.com/company/letschataboutit/" class="fa fa-linkedIn">
+                <img src="linkedIn.png" style="width:3%">
+            </a>
+        </div>
+        <p>
+          &copy; 2019 Siena College Software Engineering<br>
+        </p>
+	</footer>
     
+    <!-- javascript -->
+	<script src="jquery.min.js"></script>
+	<script src="popper.min.js"></script>
+	<script src="bootstrap.min.js"></script>
     
 </body>
